@@ -15,22 +15,13 @@ h1 {
     font-weight: normal;
     font-size: 3rem; 
     border-bottom: 2px solid #4054a1; 
-}
-hr.style-eight {
+    .style-eight 
     padding: 0;
     border: none;
     border-top: medium double #333;
+    border-bottom: medium double #333;
     color: #333;
     text-align: center;
-}
-hr.style-eight:after {
-    content: "§";
-    display: inline-block;
-    position: relative; 
-    top: -0.7em;  
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: white;
 }
 
 p,
@@ -53,7 +44,7 @@ em {
 }
 
 hr {
-    border: solid 4px #272759;
+    border: medium 4px #272759;
 }
 
 ul,
